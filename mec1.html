@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecdonls</title>
+    <style>
+      
+        #container{
+            border: 1px solid red;
+            width: 100%;
+            height: 1500px;
+            display: flex;
+
+        }
+        .left1{
+            border: 1px solid rgb(79, 82, 243);
+            width: 50%;
+            background-color: #ff7300;
+            cursor: url("https://images.ctfassets.net/nonm77rtn1g8/1hcox9SyRKo6UO2qQCcuSW/ad97f47051cfd0a120d39faeda702425/McDonalds_logo_red_America_USA-1--2de81eab5056b3a_2de81f72-5056-b3a8-4923a11fcbd87be1.png");
+        }
+        .mcimg{
+            width: 8%;
+            margin-left: 10%;
+            height: 10%;
+        }
+        #lefth1{
+            width: 80%;
+            margin: auto;
+            height: 40%;
+           margin-left: 20%;
+            margin-top: 20%;
+            font-size: 4em;
+        }
+        #buttons{
+            width: 30%;
+            height: 8%;
+            
+            margin-top: 120px;
+            margin-left: 30%;
+            display: flex;
+
+        }
+        .but{
+            height: 100%;
+            width: 50%;
+            background-color: #ff7300;
+            border-radius: 100%;
+            margin-left: 10%;
+            cursor: url("");
+            
+        }
+        .but:hover{
+            background-color: rgb(236, 11, 206);
+
+        }
+        .arrow{
+            font-size: 4em;
+           
+        }
+        /*now starting the right side of the slide*/
+        #right{
+            background-image: url("https://www.mcdonalds.com/content/dam/usa/nutrition/items/evm/mcdonalds-Premium-Grilled-Chicken-Classic-Extra-Value-Meals.png");
+       background-size: 100%;
+       width: 55%;
+       height: 100%;
+       
+        }
+        #seletion{
+            display: flex;
+            color: white;
+        margin: auto;    
+        width: 100%;
+        border: 5px solid greenyellow;
+        }
+     
+        .nav_h1{
+            margin-left: 100px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!--main div has retrun in here-->
+    <div id="container">
+        <div class="left1">
+            <img class="mcimg" src="https://images.ctfassets.net/nonm77rtn1g8/1hcox9SyRKo6UO2qQCcuSW/ad97f47051cfd0a120d39faeda702425/McDonalds_logo_red_America_USA-1--2de81eab5056b3a_2de81f72-5056-b3a8-4923a11fcbd87be1.png" />
+        <!---h1 tags in the left box-->
+        <div id="lefth1">
+            <h1>ALL NEW</h1>
+            <h1>Dil Se Makhani burger </h1>
+
+        </div>
+        <!---->
+
+        <!--butoons has started-->
+        <div id="buttons">
+
+        <button class="but">
+            <h1 class="arrow"><</h1>
+        </button>
+        <button class="but">
+            <h1 class="arrow">></h1>
+            
+        </button>
+    </div>
+<!----->
+        </div>
+        <!----ending the left box -->
+
+        <!---now starting the right box-->
+        <div class="left1" id="right">
+            <div id="seletion">
+                <h1 class="nav_h1">Menu</h1>
+                <h1  class="nav_h1">Happy Meal</h1>
+                <h1  class="nav_h1">Restaurants</h1>
+                <h1  class="nav_h1">McDelivery</h1>
+                <h1  class="nav_h1">News</h1>
+            </div>
+            
+        </div>
+
+
+</div>
+
+    
+</body>
+</html>
